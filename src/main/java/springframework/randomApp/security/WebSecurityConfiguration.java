@@ -46,7 +46,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .formLogin()
                 .loginPage("/login")
                 .failureUrl("/login?error=true")
-                .successForwardUrl("/default")
+                .successForwardUrl("/catGen")
                 .usernameParameter("username")
                 .passwordParameter("password")
                 .permitAll()
